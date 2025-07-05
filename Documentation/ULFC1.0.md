@@ -10,10 +10,9 @@
   * [Prefixes](#prefixes)
   * [Characters](#characters)
 * [Instruction](#instruction)
-  * [Level 0](#level-0)
-    * [ADD](#add)
-    * [SUB](#sub)
-    * [RSH](#rsh)
+  * [ADD](#add)
+  * [SUB](#sub)
+  * [RSH](#rsh)
 
 ## **Tools**
 
