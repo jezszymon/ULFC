@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.ulfc]
+@="ULFC.File"
+
+[HKEY_CLASSES_ROOT\ULFC.File]
+@="ULFC File"
+
+[HKEY_CLASSES_ROOT\ULFC.File\DefaultIcon]
+@="C:\Program Files\ULFC\icon.ico"
+
+[HKEY_CLASSES_ROOT\ULFC.File\shell\open\command]
+@="code \"%1\""
