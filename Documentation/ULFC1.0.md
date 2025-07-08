@@ -19,6 +19,8 @@
     *   [NOP](#nop)
     *   [ADD](#add)
     *   [SUB](#sub)
+    *   [MUL](#mul)
+    *   [DIV](#div)
     *   [AND](#and)
     *   [NAND](#nand)
     *   [NOR](#nor)
@@ -155,6 +157,40 @@ The `SUB` instruction subtracts the third value from the second value and stores
 | Register | Immediate | Register | SUB R1 5 R3 |
 | Register | Register | Immediate | SUB R1 R2 7 |
 | Register | Immediate | Immediate | SUB R1 5 7 |
+
+### MUL
+
+#### _Description_
+
+The `MUL` instruction multiplies two values (registers or a register and immediate) and stores the result in a register. Used for arithmetic operations.
+
+#### _Operands_
+
+`MUL` requires 3 operands.
+
+| **Destination** | **Source1** | **Source2** | **Example** |
+| --- | --- | --- | --- |
+| Register | Register | Register | MUL R1 R2 R3 |
+| Register | Immediate | Register | MUL R1 5 R3 |
+| Register | Register | Immediate | MUL R1 R2 7 |
+| Register | Immediate | Immediate | MUL R1 5 7 |
+
+### DIV
+
+#### _Description_
+
+The `DIV` instruction performs division between two values and gives the result as a quotient. Often used in math operations.
+
+#### _Operands_
+
+`DIV` requires 3 operands.
+
+| **Destination** | **Source1** | **Source2** | **Example** |
+| --- | --- | --- | --- |
+| Register | Register | Register | DIV R1 R2 R3 |
+| Register | Immediate | Register | DIV R1 5 R3 |
+| Register | Register | Immediate | DIV R1 R2 7 |
+| Register | Immediate | Immediate | DIV R1 5 7 |
 
 ### AND
 
