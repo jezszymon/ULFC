@@ -14,7 +14,7 @@
     *   [Prefixes](#prefixes)
     *   [Characters](#characters)
     *   [Flags](#flags)
-*   [PC](#pc)
+    *   [PC](#pc)
 *   [Instruction](#instruction)
     *   [NOP](#nop)
     *   [ADD](#add)
