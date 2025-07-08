@@ -2,6 +2,7 @@
 
 
 
+
 ULFC is a simple and powerful low-level programming language designed for educational and experimental purposes. It provides minimalistic assembly-like instructions for full control over execution flow and memory operations.
 
 ## 📘 Documentation

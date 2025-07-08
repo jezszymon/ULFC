@@ -4,9 +4,9 @@ import os
 
 def main():
     os.makedirs(r"C:\Program Files\ULFC", exist_ok=True)
-    shutil.copy2("ico.ico", r"C:\Program Files\ULFC\icon.ico")
+    shutil.copy2("src\\ico.ico", r"C:\Program Files\ULFC\icon.ico")
     try:
-        subprocess.run(["reg", "import", "set.reg"], check=True)
+        subprocess.run(["reg", "import", "src\\set.reg"], check=True)
         print("Registry import completed successfully.")
     except subprocess.CalledProcessError as e:
         print("Error importing registry:", e)
