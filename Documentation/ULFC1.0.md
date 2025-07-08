@@ -29,7 +29,7 @@
     *   [LSH](#lsh)
     *   [LDI](#ldi)
     *   [STR](#str)
-    *   [LDI](#ldi)
+    *   [LOD](#lod)
     *   [JMP](#jmp)
     *   [INC](#inc)
     *   [DEC](#dec)
